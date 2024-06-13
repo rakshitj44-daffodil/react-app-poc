@@ -1,9 +1,9 @@
 import React, { useState } from 'react'
-import Textbox from '../../shared/Textbox';
-import ForgotPassword from '../../pages/Login/ForgotPassword';
-import Button from '../../shared/Button';
+import Textbox from './Textbox';
+import ForgotPassword from './ForgotPassword';
+import Button from './Button';
 import * as Yup from 'yup';
-import loginValidationSchema from '../validations/LoginValidations';
+import loginValidationSchema from '../schema/LoginValidations';
 
 interface FormValues {
   email: string;
